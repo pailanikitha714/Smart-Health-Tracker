@@ -23,7 +23,7 @@ function EditEntry() {
     try {
       const token = localStorage.getItem("token")
       const response = await axios.get(
-        "http://localhost:5000/api/health",
+        "https://smart-health-backend-ttae.onrender.com//api/health",
         {
           headers: {
             Authorization: `Bearer ${token}`
@@ -77,7 +77,7 @@ function EditEntry() {
     try {
       const token = localStorage.getItem("token")
       await axios.put(
-        `http://localhost:5000/api/health/${id}`,
+        `https://smart-health-backend-ttae.onrender.com//api/health/${id}`,
         formData,
         {
           headers: {
