@@ -47,7 +47,7 @@ function AddEntry() {
     try {
       const token = localStorage.getItem("token")
       const response = await axios.post(
-        "https://smart-health-backend-ttae.onrender.com//api/health/add",
+        "https://smart-health-backend-ttae.onrender.com/api/health/add",
         formData,
         {
           headers: {

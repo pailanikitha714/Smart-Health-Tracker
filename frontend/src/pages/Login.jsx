@@ -21,7 +21,7 @@ function Login() {
     e.preventDefault()
     try {
       const response = await axios.post(
-        "https://smart-health-backend-ttae.onrender.com//api/auth/login",
+        "https://smart-health-backend-ttae.onrender.com/api/auth/login",
         formData
       )
       localStorage.setItem(

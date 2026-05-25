@@ -26,10 +26,10 @@ function Register() {
 
     try {
       const response = await axios.post(
-        "https://smart-health-backend-ttae.onrender.com//api/auth/register",
+        "https://smart-health-backend-ttae.onrender.com/api/auth/register",
         formData
       )
-      alert(response.data.message)
+      alert("Registration Successful ✅")
       navigate("/login")
     }
     
