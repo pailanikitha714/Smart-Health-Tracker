@@ -3,7 +3,7 @@ import Dashboard from "./pages/Dashboard"
 import AddEntry from "./pages/AddEntry"
 import Login from "./pages/Login"
 import Register from "./pages/Register"
-import ProtectedRoute from "./components/protectedRoute"
+import ProtectedRoute from "./components/ProtectedRoute"
 import EditEntry from "./pages/EditEntry"
 
 function App() {
